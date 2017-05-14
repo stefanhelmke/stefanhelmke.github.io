@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("./fonts/Myriad Pro Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro Bold";
+    src: url("./fonts/Myriad Pro Bold.ttf");
+    font-weight: bold;
+}
+
+
+/*main article title*/
+
+.mainTitle {
+    font-family: "Myriad Pro Bold";
+    font-size: 96px;
+}
+
+
+/*sub article title*/
+
+.mainTitle2 {
+    font-family: "Myriad Pro Bold";
+    font-size: 60px;
+}
+
+nav {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*subsub article title*/
+
+.mainTitle3 {
+    font-family: "Myriad Pro Regular";
+    font-size: 36px;
+    color: gray;
+}
+
+
+/*article content*/
+
+p {
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    /* width: 50%;
+    word-break: normal;*/
+}
+
+
+/* based on next info, this will maybe be a particular p class*/
+
+p.footer>a {
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+    color: gray;
+    text-decoration: underline;
+}
+
+
+/*nav menu*/
+
+nav>ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:link {
+    font-family: "Myriad Pro Regular";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    color: gray;
+}
+
+p > a {
+    color: gray;
+}
+nav>ul>a:active {
+    font-weight: bold;
+}
+
+nav>ul>a:hover {
+    font-weight: bold;
+}
